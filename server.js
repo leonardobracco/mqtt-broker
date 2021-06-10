@@ -1,8 +1,8 @@
 var mosca = require('mosca');
 var settings = {
     interfaces: [
-        { type: "mqtt", port: 3001 },
-        { type: "http", port: 9001, bundle: true },
+        { type: "mqtt", port: 3001 }, 
+        { type: "http", port: 9001, bundle: true }, //WS
     ]
 
 };
