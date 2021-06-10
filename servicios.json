@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "name"	: "Broker-Local",
+    "script"    : "./server.js",
+    "watch" 	: true,
+    "exec_mode" : "fork" 
+  }]
+
+}
